@@ -1,0 +1,168 @@
+body{
+	margin: 0px;
+	padding: 0px;
+		background-color: grey;
+}
+.photo_couverture{
+	height: 250px;
+	background-position: center;
+	background-size: cover;
+}
+.sac{
+		width: 100%;
+	margin-top: 200px;
+	position: absolute;
+}
+.photo_profil{
+	width:180px;
+	height: 180px;
+	border-style: solid;
+	border-radius: 500px;
+	border-color: white;
+	border-width: 5px;
+	position: absolute;
+	top: 0;
+}
+.user{
+	padding-bottom: 45px;
+	margin-top: 50px;
+	background-color: white;
+	display: flex;
+	border-bottom-style:solid;
+	border-color: grey;
+	border-width: 2px; 	
+}
+.user div{
+	margin-left: 200px;
+	background-color: white;
+}
+.user a{
+	margin-left: 630px;
+	transition: .5s ease-in-out;
+	margin-top: 80px;
+	border-radius: 10px;
+	padding: 10px;
+	padding-left: 100px;
+	padding-right: 100px;
+	height: 20px;
+	color: white;
+	text-decoration: none;
+	background-color: blue;
+}
+.user a:hover{
+	box-shadow: 0px 0px 10px black;
+}
+nav{
+	padding-left: 10px;
+	padding-bottom: 0px;
+	padding-right:0px;
+	padding-top: 15px;
+	background-color: white;
+}
+nav a{ 
+	font-weight: bolder;
+	transition: .5s ease-in-out;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	font-family: sans-serif;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+nav a:hover{
+	font-weight: bolder;
+	background-color: lightblue;
+}
+.contenue{
+	height: auto;
+
+}
+.pub{
+	margin-top: 10px;
+	border-radius: 5px;
+	width: 100%;
+	background-color: rgba(250,250,250);
+}
+.send{
+	display: flex;
+	padding: 15px;
+	border-bottom-style:solid;
+	border-color: rgb(30,30,30);
+	border-width: 3px;
+}
+.send a{
+	text-decoration: none;
+	display: flex;
+}
+.send img{
+	margin-top: 0px;
+	height: 75px;
+	width:75px;
+	border-radius: 75px;
+}
+.send h2{
+	margin: 0px;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-family: sans-serif;
+	color: black;
+	font-weight: bold;
+}
+.send div p{
+	font-family: sans-serif;
+	margin: 5px;
+	color: rgb(30,30,30);
+}
+.legend{
+	margin-left: 20px;
+	font-family: sans-serif;
+	color: black;
+	font-size: 20px;
+}
+.file{
+	text-align: center;
+}
+.react{
+	padding: 10px;
+	border-top-style:solid;
+	border-color: rgb(30,30,30);
+	border-width: 3px;	 
+}
+.react a{
+	text-decoration: none;
+	font-size: 35px;
+}
+.react a i{
+	transition: .5s ease-in-out;
+	color:rgb(30,30,30);
+}
+.react a i:hover{
+color: rgb(235, 23, 23);	
+}
+.c1{
+	padding-left: 10px;
+	float: left;
+	width: 70%;
+}
+.mini_pub{
+margin-top: 10px;
+margin-left: 71%;
+background-color: rgba(255,255,255);
+}
+.p1{
+	display: flex;
+	font-family:sans-serif;
+	padding: 10px;
+	border-bottom-style: solid;
+	border-width: 2px;
+}
+.p1 img{
+	height: 100px;
+}
+.p1 div{
+	padding-left: 10px;
+}
+.p1 p{
+	color: rgba(30,30,30);
+}
